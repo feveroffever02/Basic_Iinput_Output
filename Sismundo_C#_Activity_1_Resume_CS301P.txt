@@ -1,0 +1,74 @@
+using System;
+namespace ConsoleApp
+{
+    class Eduardo{
+        static void Main (string[] args){
+            
+            Console.Write("Enter your Name: ");
+            string name = Console.ReadLine();
+        
+            Console.Write("Enter your Present Address: ");
+            string preadd = Console.ReadLine();
+            
+            Console.Write("Enter your Permanent Address: ");
+            string permadd = Console.ReadLine();
+            
+            Console.Write("Date of Birth: ");
+            string dob = Console.ReadLine();
+            
+            Console.Write("Civil Status: ");
+            string civs = Console.ReadLine();
+            
+            Console.Write("Enter your Citizenship: ");
+            string citizen = Console.ReadLine();
+            
+            Console.Write("Place of Birth: ");
+            string pob = Console.ReadLine();
+            
+            Console.Write("Enter your Father's Name: ");
+            string fname = Console.ReadLine();
+            
+            Console.Write("Enter your Mother's Name: ");
+            string mname = Console.ReadLine();
+            
+            Console.Write("Address: ");
+            string addr = Console.ReadLine();
+            
+            Console.Write("Language and Dialects Spoken: ");
+            string lang = Console.ReadLine();
+            
+            Console.Write("Person to be notified In Case of Emergency: ");
+            string emer = Console.ReadLine();
+            
+            Console.Write("Religion: ");
+            string religion = Console.ReadLine();
+            
+             Console.Write("Enter your Age: ");
+            int age;
+            age = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Weight: ");
+            string weight = Console.ReadLine();
+            
+            Console.Write("Height: ");
+            string height = Console.ReadLine();
+            
+            Console.WriteLine("Name: " + name + "                      Religion: " + religion);
+            Console.WriteLine("Present Address: " + preadd + "          Age:   " +age );
+            Console.WriteLine("Permanent Address : " + permadd+ "       Weight: " +weight );
+            Console.WriteLine("Date of Birth: " + dob+ "            Height: "+height);
+            Console.WriteLine("Civil Status: " + civs );
+            Console.WriteLine("Citizenship: " + citizen );
+            Console.WriteLine("Place of Birth: " + pob );
+            Console.WriteLine("Name of Father: " + fname );
+            Console.WriteLine("Name of Mother: " + mname );
+            Console.WriteLine("Address: " + addr );
+            Console.WriteLine("Languages and Dialects Spoken: " + lang );
+            Console.WriteLine("Person to be notified In Case of Emergency: " + emer );
+            Console.WriteLine();
+            
+            Console.Write("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
